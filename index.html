@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes for a sample CSE 110 team meeting">
+    <link rel="icon" href="screenshots/favicon.png">
+    <title>Pomodoro Timer First Brainstorm</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pomodoro Timer First Brainstorm</h1>
+      <h2>Brainstorming Meeting</h2>
+      <h3>Date: April 12, 2026</h3>
+
+      <nav>
+        <a href="#attendance">Attendance</a><br>
+        <a href="#agenda">Agenda</a><br>
+        <a href="#unfinished">Unfinished Business</a><br>
+        <a href="#new">New Business</a><br>
+        <a href="#media">Media</a><br>
+        <a href="#form">Feedback Form</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li><strong>Mohamed</strong></li>
+          <li>Alice</li>
+          <li>Brian</li>
+          <li>Fatima</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Choose app idea</li>
+          <li>Discuss target users</li>
+          <li>Assign early roles</li>
+        </ol>
+        <p>
+          Our goal is to build a <b>simple</b> productivity app.
+          We want something <em>useful</em> and easy to demo.
+        </p>
+      </section>
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <div>
+          Last time we still needed to decide whether to make a
+          <span>Pomodoro timer</span> or a task planner.
+        </div>
+        <p>
+          We also still needed to confirm who would work on documentation
+          <i>first</i>.
+        </p>
+      </section>
+
+      <section id="new">
+        <h2>New Business</h2>
+        <p>
+          We decided to focus on a Pomodoro timer with task tracking.<br>
+          Alice will work on wireframes.<br>
+          Brian will organize the repo.
+        </p>
+
+        <details>
+          <summary>Extra discussion notes</summary>
+          <p>
+            One concern was whether notifications should be included in v1.
+            Another was how to make the interface easy for students.
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Miscellaneous Comments / Questions / Concerns</h2>
+        <ul>
+          <li>Should we support dark mode later?</li>
+          <li>Do we want a statistics page for completed sessions?</li>
+          <li>Can we make the MVP by the first checkpoint?</li>
+        </ul>
+      </section>
+
+      <section id="media">
+        <h2>Diagrams and Media</h2>
+        <img src="screenshots/diagram.jpg" alt="Whiteboard sketch of pomodoro timer app layout" width="300">
+
+        <p>Audio recording of the meeting:</p>
+        <audio controls>
+          <source src="media/meeting-audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <p>Video recording of the meeting:</p>
+        <video controls width="320">
+          <source src="media/meeting-video.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section id="form">
+        <h2>Quick Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+              <label for="date">Today's date:</label>
+              <input type="date" id="date" name="date">
+            </p>
+
+            <p>Would you attend the next meeting?</p>
+            <input type="radio" id="yes" name="attend" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="attend" value="no">
+            <label for="no">No</label>
+
+            <p>Topics you want next time:</p>
+            <input type="checkbox" id="ui" name="topic-ui" value="ui">
+            <label for="ui">UI</label>
+            <input type="checkbox" id="backend" name="topic-backend" value="backend">
+            <label for="backend">Backend</label>
+
+            <p>
+              <label for="tool">Favorite tool:</label>
+              <input list="tools" id="tool" name="tool">
+              <datalist id="tools">
+                <option value="VS Code"></option>
+                <option value="GitHub"></option>
+                <option value="Figma"></option>
+              </datalist>
+            </p>
+
+            <p>
+              <label for="role">Preferred role:</label>
+              <select id="role" name="role">
+                <option value="frontend">Frontend</option>
+                <option value="backend">Backend</option>
+                <option value="documentation">Documentation</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="comments">Other comments:</label><br>
+              <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+            </p>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>Meeting minutes created for CSE 110 Lab 2.</p>
+      <a href="README.md">Back to README</a>
+    </footer>
+  </body>
+</html>
