@@ -1,4 +1,5 @@
 # Standup Notes Template
+- **Sprint / Week:** 
 
 ## Meeting Details
 - **Date:** 
