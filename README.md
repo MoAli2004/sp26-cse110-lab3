@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://github.com/MoAli2004/Lab2_Starter
+https://moali2004.github.io/sp26-cse110-lab3/
