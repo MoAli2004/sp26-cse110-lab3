@@ -1,167 +1,249 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Meeting minutes for a sample CSE 110 team meeting">
-    <link rel="icon" href="screenshots/favicon.png">
-    <title>Pomodoro Timer First Brainstorm</title>
-  </head>
-  <body>
-    <header>
-      <h1>Pomodoro Timer First Brainstorm</h1>
-      <h2>Brainstorming Meeting</h2>
-      <h3>Date: April 12, 2026</h3>
-
-      <nav>
-        <a href="#attendance">Attendance</a><br>
-        <a href="#agenda">Agenda</a><br>
-        <a href="#unfinished">Unfinished Business</a><br>
-        <a href="#new">New Business</a><br>
-        <a href="#media">Media</a><br>
-        <a href="#form">Feedback Form</a>
-      </nav>
-      <hr>
-    </header>
-
-    <main>
-      <section id="attendance">
-        <h2>Attendance</h2>
-        <ul>
-          <li><strong>Mohamed</strong></li>
-          <li>Alice</li>
-          <li>Brian</li>
-          <li>Fatima</li>
-        </ul>
-      </section>
-
-      <section id="agenda">
-        <h2>Agenda</h2>
-        <ol>
-          <li>Choose app idea</li>
-          <li>Discuss target users</li>
-          <li>Assign early roles</li>
-        </ol>
-        <p>
-          Our goal is to build a <b>simple</b> productivity app.
-          We want something <em>useful</em> and easy to demo.
-        </p>
-      </section>
-
-      <section id="unfinished">
-        <h2>Unfinished Business</h2>
-        <div>
-          Last time we still needed to decide whether to make a
-          <span>Pomodoro timer</span> or a task planner.
-        </div>
-        <p>
-          We also still needed to confirm who would work on documentation
-          <i>first</i>.
-        </p>
-      </section>
-
-      <section id="new">
-        <h2>New Business</h2>
-        <p>
-          We decided to focus on a Pomodoro timer with task tracking.<br>
-          Alice will work on wireframes.<br>
-          Brian will organize the repo.
-        </p>
-
-        <details>
-          <summary>Extra discussion notes</summary>
-          <p>
-            One concern was whether notifications should be included in v1.
-            Another was how to make the interface easy for students.
-          </p>
-        </details>
-      </section>
-
-      <section>
-        <h2>Miscellaneous Comments / Questions / Concerns</h2>
-        <ul>
-          <li>Should we support dark mode later?</li>
-          <li>Do we want a statistics page for completed sessions?</li>
-          <li>Can we make the MVP by the first checkpoint?</li>
-        </ul>
-      </section>
-
-      <section id="media">
-        <h2>Diagrams and Media</h2>
-        <img src="screenshots/diagram.jpg" alt="Whiteboard sketch of pomodoro timer app layout" width="300">
-
-        <p>Audio recording of the meeting:</p>
-        <audio controls>
-          <source src="media/meeting-audio.mp3" type="audio/mpeg">
-        </audio>
-
-        <p>Video recording of the meeting:</p>
-        <video controls width="320">
-          <source src="media/meeting-video.mp4" type="video/mp4">
-        </video>
-      </section>
-
-      <section id="form">
-        <h2>Quick Feedback Form</h2>
-        <form>
-          <fieldset>
-            <legend>Meeting Feedback</legend>
-
-            <p>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name">
-            </p>
-
-            <p>
-              <label for="date">Today's date:</label>
-              <input type="date" id="date" name="date">
-            </p>
-
-            <p>Would you attend the next meeting?</p>
-            <input type="radio" id="yes" name="attend" value="yes">
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="attend" value="no">
-            <label for="no">No</label>
-
-            <p>Topics you want next time:</p>
-            <input type="checkbox" id="ui" name="topic-ui" value="ui">
-            <label for="ui">UI</label>
-            <input type="checkbox" id="backend" name="topic-backend" value="backend">
-            <label for="backend">Backend</label>
-
-            <p>
-              <label for="tool">Favorite tool:</label>
-              <input list="tools" id="tool" name="tool">
-              <datalist id="tools">
-                <option value="VS Code"></option>
-                <option value="GitHub"></option>
-                <option value="Figma"></option>
-              </datalist>
-            </p>
-
-            <p>
-              <label for="role">Preferred role:</label>
-              <select id="role" name="role">
-                <option value="frontend">Frontend</option>
-                <option value="backend">Backend</option>
-                <option value="documentation">Documentation</option>
-              </select>
-            </p>
-
-            <p>
-              <label for="comments">Other comments:</label><br>
-              <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
-            </p>
-
-            <button type="submit">Submit</button>
-          </fieldset>
-        </form>
-      </section>
-    </main>
-
-    <footer>
-      <hr>
-      <p>Meeting minutes created for CSE 110 Lab 2.</p>
-      <a href="README.md">Back to README</a>
-    </footer>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Description" content="Meeting minutes for a sample CSE 110 team meeting">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Arial; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;head&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta</span></p>
+<p class="p1"><span class="s1">      name="description"</span></p>
+<p class="p1"><span class="s1">      content="Meeting minutes for a sample CSE 110 team meeting"</span></p>
+<p class="p1"><span class="s1">    &gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link rel="icon" href="screenshots/favicon.png"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;title&gt;Pomodoro Timer First Brainstorm&lt;/title&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;!-- Google Font --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link</span></p>
+<p class="p1"><span class="s1">      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap"</span></p>
+<p class="p1"><span class="s1">      rel="stylesheet"</span></p>
+<p class="p1"><span class="s1">    &gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;!-- External CSS --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;link rel="stylesheet" href="style.css"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;!-- Internal CSS example --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;style&gt;</span></p>
+<p class="p1"><span class="s1">      .quick-note {</span></p>
+<p class="p1"><span class="s1">        background-color: lightyellow;</span></p>
+<p class="p1"><span class="s1">        padding: 0.5rem;</span></p>
+<p class="p1"><span class="s1">        border-left: 4px solid orange;</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">    &lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;body&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;header class="site-header"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h1 id="main-title"&gt;Pomodoro Timer First Brainstorm&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h2&gt;Brainstorming Meeting&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h3&gt;Date: April 12, 2026&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;p class="quick-note"&gt;</span></p>
+<p class="p1"><span class="s1">        This page was updated for Lab 3 styling requirements.</span></p>
+<p class="p1"><span class="s1">      &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;nav class="sticky-nav"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;ul class="nav-list"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#attendance"&gt;Attendance&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#agenda"&gt;Agenda&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#unfinished"&gt;Unfinished Business&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#new"&gt;New Business&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#updates"&gt;Team Updates&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#board"&gt;Project Board&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#media"&gt;Media&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;a href="#form"&gt;Feedback Form&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/nav&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;hr&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;main class="center-box meeting-notes"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;section id="attendance" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Attendance&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="section-intro"&gt;Team members who attended the meeting.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;&lt;strong&gt;Mohamed&lt;/strong&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Alice&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Brian&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Fatima&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="agenda" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Agenda&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="inline-demo"&gt;Main discussion items for the day.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span class="inline-block-demo"&gt;Planning Block&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;ol&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Choose app idea&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Discuss target users&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Assign early roles&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/ol&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">          Our goal is to build a &lt;b&gt;simple&lt;/b&gt; productivity app.</span></p>
+<p class="p1"><span class="s1">          We want something &lt;em&gt;useful&lt;/em&gt; and easy to demo.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p style="color: darkred;"&gt;This is an inline CSS example.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="unfinished" class="section-card relative-box"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Unfinished Business&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">          Last time we still needed to decide whether to make a</span></p>
+<p class="p1"><span class="s1">          &lt;span class="highlight"&gt;Pomodoro timer&lt;/span&gt; or a task planner.</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">          We also still needed to confirm who would work on documentation</span></p>
+<p class="p1"><span class="s1">          &lt;i&gt;first&lt;/i&gt;.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="new" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;New Business&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">          We decided to focus on a Pomodoro timer with task tracking.&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">          Alice will work on wireframes.&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">          Brian will organize the repo.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;details&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;summary&gt;Extra discussion notes&lt;/summary&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">            One concern was whether notifications should be included in v1.</span></p>
+<p class="p1"><span class="s1">            Another was how to make the interface easy for students.</span></p>
+<p class="p1"><span class="s1">          &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/details&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="updates" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Team Updates&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex-container"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="flex-item"&gt;Mohamed: project planning and documentation&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="flex-item"&gt;Alice: interface sketches and layout ideas&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="flex-item"&gt;Brian: GitHub setup and workflow planning&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="board" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Project Board&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="grid-container"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid-item"&gt;To Do&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid-item"&gt;In Progress&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid-item"&gt;Done&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid-item"&gt;Meeting notes styling&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid-item"&gt;Wireframe planning&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid-item"&gt;Repository setup&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Miscellaneous Comments / Questions / Concerns&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Should we support dark mode later?&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Do we want a statistics page for completed sessions?&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Can we make the MVP by the first checkpoint?&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="wide-color"&gt;This line uses a wider-gamut style example.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="print-note"&gt;Print layout spacing demo.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="media" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Diagrams and Media&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;img</span></p>
+<p class="p1"><span class="s1">          src="screenshots/diagram.jpg"</span></p>
+<p class="p1"><span class="s1">          alt="Whiteboard sketch of pomodoro timer app layout"</span></p>
+<p class="p1"><span class="s1">        &gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p&gt;Audio recording of the meeting:&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;audio controls&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;source src="media/meeting-audio.mp3" type="audio/mpeg"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/audio&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">        &lt;p&gt;Video recording of the meeting:&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;video controls&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;source src="media/meeting-video.mp4" type="video/mp4"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/video&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;section id="form" class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;Quick Feedback Form&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;form&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;fieldset&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;legend&gt;Meeting Feedback&lt;/legend&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;label for="name"&gt;Name:&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;input type="text" id="name" name="name" placeholder="Enter name"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;label for="date"&gt;Today's date:&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;input type="date" id="date" name="date"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;Would you attend the next meeting?&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;input type="radio" id="yes" name="attend" value="yes"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label for="yes"&gt;Yes&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;input type="radio" id="no" name="attend" value="no"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label for="no"&gt;No&lt;/label&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;Topics you want next time:&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;input type="checkbox" id="ui" name="topic-ui" value="ui"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label for="ui"&gt;UI&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;input type="checkbox" id="backend" name="topic-backend" value="backend"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;label for="backend"&gt;Backend&lt;/label&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;label for="tool"&gt;Favorite tool:&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;input list="tools" id="tool" name="tool"&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;datalist id="tools"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;option value="VS Code"&gt;&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;option value="GitHub"&gt;&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;option value="Figma"&gt;&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;/datalist&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;label for="role"&gt;Preferred role:&lt;/label&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;select id="role" name="role"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;option value="frontend"&gt;Frontend&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;option value="backend"&gt;Backend&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;option value="documentation"&gt;Documentation&lt;/option&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;/select&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;label for="comments"&gt;Other comments:&lt;/label&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;textarea id="comments" name="comments" rows="4" cols="30"&gt;&lt;/textarea&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">            &lt;button type="submit"&gt;Submit&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/fieldset&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/form&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;p class="hidden-demo"&gt;This is here only to demonstrate display: none.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/main&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;footer class="section-card"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;hr&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p&gt;Meeting minutes created for CSE 110 Lab 3.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;a href="README.md"&gt;Back to README&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/footer&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
 </html>
